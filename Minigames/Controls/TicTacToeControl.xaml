@@ -1,0 +1,40 @@
+﻿<Window x:Class="Minigames.Models.TicTacToeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Minigames.Models"
+        Title="Tic Tac Toe" Width="450" Height="500"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="CloseButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <UniformGrid Rows="3" Columns="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="Button00" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button01" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button02" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button10" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button11" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button12" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button20" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button21" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Name="Button22" Width="100" Height="100" FontSize="24" FontWeight="Bold" Margin="5"/>
+        </UniformGrid>
+
+        <Button Content="Close" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Style="{StaticResource CloseButtonStyle}" Click="CloseButtonClick"/>
+    </Grid>
+</Window>
