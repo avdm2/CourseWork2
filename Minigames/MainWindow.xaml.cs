@@ -30,7 +30,7 @@ namespace Minigames
         
         private void ExitClick(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
     }
 }

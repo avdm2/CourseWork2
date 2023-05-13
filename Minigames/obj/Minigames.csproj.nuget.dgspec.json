@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Prog\\Rider\\Minigames\\Minigames\\Minigames.csproj": {}
+    "C:\\Prog\\Rider\\CourseWork2\\Minigames\\Minigames.csproj": {}
   },
   "projects": {
-    "C:\\Prog\\Rider\\Minigames\\Minigames\\Minigames.csproj": {
+    "C:\\Prog\\Rider\\CourseWork2\\Minigames\\Minigames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Prog\\Rider\\Minigames\\Minigames\\Minigames.csproj",
+        "projectUniqueName": "C:\\Prog\\Rider\\CourseWork2\\Minigames\\Minigames.csproj",
         "projectName": "Minigames",
-        "projectPath": "C:\\Prog\\Rider\\Minigames\\Minigames\\Minigames.csproj",
+        "projectPath": "C:\\Prog\\Rider\\CourseWork2\\Minigames\\Minigames.csproj",
         "packagesPath": "C:\\Users\\Артем\\.nuget\\packages\\",
-        "outputPath": "C:\\Prog\\Rider\\Minigames\\Minigames\\obj\\",
+        "outputPath": "C:\\Prog\\Rider\\CourseWork2\\Minigames\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
